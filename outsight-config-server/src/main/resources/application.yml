@@ -1,6 +1,12 @@
 ---
 server:
   port: 8888
+security:
+  basic:
+    enabled: true 
+  user:
+    name: vind
+    password: vind
 management:
   security:
     enabled: false
