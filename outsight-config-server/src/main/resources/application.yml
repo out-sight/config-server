@@ -15,6 +15,6 @@ spring:
     config:
       server:
         git:
-          uri: file:///${user.home}\git\config-repo
+          uri: https://github.com/out-sight/config-repo
           search-paths:
             - service*
